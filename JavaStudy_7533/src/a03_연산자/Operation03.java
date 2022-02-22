@@ -12,6 +12,19 @@ public class Operation03 {
 		boolean result2 = num1 > num2 ? true : false;
 		System.out.println(result2);
 		
+		int score = 85;
+		char grade = score > -1 && score < 101 ?
+				score > 89 ? 'A' : 
+					score > 79 ? 'B' :
+						score > 69 ? 'C' :
+							score > 59 ? 'D' :
+								score > 0 ? 'F' : 'X'
+												: 'X' ;
+				System.out.println("결과 : " +  grade);
+									
+						 
+				
+		
 		
 
 	}
