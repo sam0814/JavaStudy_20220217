@@ -37,6 +37,8 @@ public class SwitchEx2 {
 			break;
 			default :
 				System.out.println("F");
+				
+				
 		
 		
 		}

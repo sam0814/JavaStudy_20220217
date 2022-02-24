@@ -39,7 +39,7 @@ public class IfElseEx5 {
 			}
 		else
 			{
-				if(score < 89) {
+				if(score > 89) {
 					grade = "A";
 				}
 			
