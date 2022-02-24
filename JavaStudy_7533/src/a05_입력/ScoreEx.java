@@ -23,9 +23,15 @@ public class ScoreEx {
 		
 		System.out.print("성적을 입력해 주세요 : ");
 		score = scanner.nextInt();
-		grade = score > -1 && score < 101 ? "A" : "오류";				
+		grade = score > -1 && score < 101 ? 
+						 score > 89 ? 'A': 
+							score > 79 ? 'B' :
+								score > 69 ? 'C' :
+									score > 59 ? 'D' :
+										score > 0 ? 'F' : 'X' :
+													"오류";				
 		
-		System.out.println("학생의 평점은 " + grade + "입니다");
+		System.out.println("학생의 평점은 " + grade + "등급 입니다.");
 				
 			
 					
