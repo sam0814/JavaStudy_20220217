@@ -21,7 +21,7 @@ public class IfElseEx7 {
 		year = scanner.nextInt();
 		
 		if (year > 0 || year < 4001) {
-		{
+		
 			if(year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
 				System.out.println(1);
 			}
@@ -39,4 +39,4 @@ public class IfElseEx7 {
 	}
 
 }
-}
+
