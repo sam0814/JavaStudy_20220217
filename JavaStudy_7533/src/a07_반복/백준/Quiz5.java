@@ -18,10 +18,7 @@ public class Quiz5 {
 			}
 			System.out.println();
 		}
-		
-		
-			
-		
+	
 		
 }
 }
