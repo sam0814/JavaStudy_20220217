@@ -5,12 +5,18 @@ public class ComputerTest {
 	public static void main(String[] args) {
 		Computer c1 = null;
 		Computer c2 = null;
+		Computer c3 = null;
+		Computer c4 = null;
 		
 		c1 = new Computer(); //생성(생성자 호출)
 		c2 = new Computer();
+		c3 = new Computer();
+		c4 = new Computer();
 		
 		System.out.println(c1);
 		System.out.println(c2);
+		System.out.println(c3);
+		System.out.println(c4);
 		
 		c1.model = "삼성컴퓨터";
 		c2.model = "LG컴퓨터";
