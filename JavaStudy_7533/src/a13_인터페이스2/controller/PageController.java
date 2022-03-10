@@ -31,7 +31,7 @@ public class PageController {
 			User user = input.typedUser(scanner); //user 객체 생성 및 객체 데이터 삽입
 			userService.addUser(user); //user 추가
 			
-			user.showUser();
+			System.out.println(user);
 		}else if(select =='2') { //회원조회
 			
 		}else if(select == 'q') {
@@ -62,12 +62,18 @@ public class PageController {
 						//user.showUser()메소드를 호출 할 수 없기 때문에 continue로 넘김
 						continue;
 					}
-					users[i].showUser(); //해당 배열에 user객체가 존재하기 때문에 user 정보를 출력
+					System.out.println(users[i]);
+					//users[i].showUser(); //해당 배열에 user객체가 존재하기 때문에 user 정보를 출력
 				}
 			}else if(select == '2') {
 				String username = input.typeUsername(scanner);
 				User user = userService.getUser(username);
-				user.showUser();
+				if(user == null) {
+					System.out.println("해당 아이디로 회원 정보를 조회 할 수 없습니다.");
+				}else {
+					System.out.println(user);
+				}
+				System.out.println(user);
 			}else if(select == 'b') {
 				System.out.println("메인 메뉴로 이동");
 				break;
