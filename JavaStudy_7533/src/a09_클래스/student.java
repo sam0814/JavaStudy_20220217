@@ -15,11 +15,6 @@ public class student {
 		System.out.println("기본 생성자 호출");
 	}
 	
-	public student(String schoolName, String studentName) {
-		this.schoolName = schoolName;
-		this.studentName = studentName;
-	}
-	
 	
 	
 	public student(String schoolName, int studentYear, int studentGroup, int studentNumber, String studentName,

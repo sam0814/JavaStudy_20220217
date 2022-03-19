@@ -37,7 +37,7 @@ public class StudentTest {
 		s1.incrementYear();
 		s1.showStudentInfo();
 		
-		student s2 = new student("경남고등학교", "김준일");
+		
 		
 
 	}

@@ -15,7 +15,7 @@ public class Car {
 
 	public void go() {
 		if(oil < 1) {
-			
+			oilError();
 		}else {
 			
 		
